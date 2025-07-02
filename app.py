@@ -403,3 +403,7 @@ def team_Jane_Dane_Steven():
 def team_will_ann_rian():
     return render_template('teams/will_ann_rian.html')
 
+@app.route("/brash")
+def team_brash():
+    return render_template('teams/brash.html')
+
